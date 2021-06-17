@@ -1,0 +1,51 @@
+.site-title a {
+    text-decoration: none;
+}
+.site-title {
+    margin: 0;
+    background-color: none; 
+    padding: 10px 20px;
+    color: #000066;
+    font-size: 35px;
+        
+}
+
+.navbar {
+    background-color: gold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.navlist {
+    margin: 0 0 0 20px;
+    padding: 0;
+  }
+
+.navitem {
+    display: inline-block;
+}
+
+.navitem a {
+    text-decoration: none;
+    color: black;
+}
+
+.navitem a:hover {
+    color: white;
+
+}
+
+.navlink a {
+    padding: 8px 10px;
+    display: inline-block;
+  }
+
+  .center {
+    margin: auto;
+    width: 50%;
+
+  }
+
+  body {
+    background-color: white;
+  }
