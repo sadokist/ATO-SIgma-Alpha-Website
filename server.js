@@ -21,8 +21,44 @@ app.get('/', function (req, res) {
 
 app.use(express.static('public'));
 
+
+app.get('/home', function (req, res) {
+    res.status(200).render("home", {
+    })
+    
+});
+
+app.get('/house', function (req, res) {
+    res.status(200).render("house", {
+    })
+    
+});
+
 app.get('/members', function (req, res) {
     res.status(200).render("members", {
+    })
+    
+});
+
+app.get('/contact', function (req, res) {
+    res.status(200).render("contact", {
+    })
+    
+});
+
+app.get('/officers', function (req, res) {
+    res.status(200).render("officers", {
+    })
+    
+});
+
+app.get('/contact', function (req, res) {
+    res.status(200).render("contact", {
+    })
+    
+});
+app.get('/creed', function (req, res) {
+    res.status(200).render("creed", {
     })
     
 });

@@ -4,7 +4,9 @@
 <meta charset="utf-8">
     <title>ATO Sigma Alpha</title>
    
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Arvo" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
     <link rel="stylesheet" href="style.css" media=screen>
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.runtime.js"></script>
 
@@ -14,15 +16,27 @@
 
 <body>
     <header> 
-        <h1 class="site-title center"><a href="main.html">Alpha Tau Omega</a></h1>
-        <h2 class="site-title center"><a href="main.html"> Oregon State University</a></h2>
+        <h1 class="site-title center" id="first"><a href="home">Alpha Tau Omega</a></h1>
+        <h2 class="site-title center" id="second"><a href="home"> Oregon State University</a></h2>
         <nav class="navbar">
             <ul class="navlist">
-              <li class="navitem navlink active"><a href="#">Home</a></li>
-              <li class="navitem navlink"><a href="https://ato.org/">National</a></li>
+              <button class="navitem navlink active"><a href="home">Home</a></button>
+              <button class="navitem navlink"><a href="https://ato.org/">National</a></button>
+              <!-- <button class="navitem navlink"><a href="members">Members</a></button> -->
+            <div class="dropdown navitem navlink">
+                    <button class="dropbtn"> Members
+                        </button>
+                <div class="dropdown-content">
+                    <a href="officers">Chapter Officers</a>
+                    <a href="members">Composite</a>
+                </div>
+            </div>
 
-              <li class="navitem navlink"><a href="#">Members</a></li>
-              <li class="navitem navlink"><a href="#">House</a></li>
+
+
+              <button class="navitem navlink"><a href="creed">Creed</a></button>
+              <button class="navitem navlink"><a href="house">House</a></button>
+              <button class="navitem navlink"><a href="contact">Contact</a></button>
 
             </ul>
         </nav>
@@ -32,6 +46,11 @@
     {{{body}}}
 
 
-		<!-- Your page content goes here. -->
+		<!-- Your page content goes here. 
+
+
+    <Article class="pagebottom"> 
+        r
+    </Article> -->
 </body>
 </html>
